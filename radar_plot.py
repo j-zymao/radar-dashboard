@@ -33,7 +33,7 @@ from dash.exceptions import PreventUpdate
 from jupyter_dash import JupyterDash
 
 # %%
-data_Wy = pd.read_csv('Data_WyScout_Rating_2021.csv')
+data_Wy = pd.read_csv('roots_data.csv')
 
 # %%
 data_FB = data_Wy[data_Wy['FB'] == 'FB']
